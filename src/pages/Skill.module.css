@@ -1,0 +1,222 @@
+.Skill {
+  width: 100%;
+}
+
+.firstBox {
+  height: 100%;
+  width: 2500px;
+}
+
+.title {
+  height: 150px;
+  font-size: 100px;
+  color: #2a6d45;
+  margin-top: 100px;
+}
+
+.slide {
+  width: 2200px;
+  height: 800px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin: 0 auto;
+}
+
+.secondBox {
+  width: 2200px;
+
+  margin: 0 auto;
+}
+
+.git {
+  margin-top: 100px;
+  width: 1100px;
+  height: 500px;
+  float: left;
+  font-size: 60px;
+  color: #2a6d45;
+  margin-bottom: 10px;
+}
+
+.else {
+  margin-top: 100px;
+  width: 1100px;
+  height: 500px;
+  float: right;
+  margin-bottom: 10px;
+  font-size: 60px;
+  color: #2a6d45;
+}
+
+/* 슬라이드배너 css*/
+.banner-container {
+  width: 2200px;
+  height: 800px;
+  overflow: hidden;
+}
+.banner {
+  width: calc(2200px * 4);
+  height: 100%;
+  display: flex;
+  animation: animation1 10s infinite;
+  /*기본 전환 animation을 위한 설정*/
+  -webkit-transition: all 0.5s cubic-bezier(1, 0.01, 0.32, 1);
+  -moz-transition: all 0.5s cubic-bezier(1, 0.01, 0.32, 1);
+  -o-transition: all 0.5s cubic-bezier(1, 0.01, 0.32, 1);
+  -ms-transition: all 0.5s cubic-bezier(1, 0.01, 0.32, 1);
+  transition: all 0.5s cubic-bezier(1, 0.01, 0.32, 1);
+}
+.banner > div {
+  width: 2200px;
+  height: 100%;
+}
+.banner > div:nth-child(1) {
+  background-image: url("../../public/static/images/프론트엔드1.png");
+}
+.banner > div:nth-child(2) {
+  background-image: url("../../public/static/images/백엔드.png");
+}
+.banner > div:nth-child(3) {
+  background-image: url("../../public/static/images/커뮤니케이션.png");
+}
+.banner > div:nth-child(4) {
+  background-image: url("../../public/static/images/툴.png");
+}
+
+.list-button {
+  width: 2200px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+  position: absolute;
+  z-index: 2;
+}
+.list-button-item {
+  width: 10px;
+  height: 10px;
+  border-radius: 5rem;
+  background-color: black;
+  cursor: pointer;
+  display: inline-block;
+  margin: 6px;
+}
+.list-button-item.active {
+  background-color: white;
+}
+@keyframes animation1 {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  95% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+@keyframes animation2 {
+  0% {
+    margin-left: -100%;
+  }
+  20% {
+    margin-left: -100%;
+  }
+  25% {
+    margin-left: -200%;
+  }
+  45% {
+    margin-left: -200%;
+  }
+  50% {
+    margin-left: -300%;
+  }
+  70% {
+    margin-left: -300%;
+  }
+  75% {
+    margin-left: 0;
+  }
+  95% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -100%;
+  }
+}
+@keyframes animation3 {
+  0% {
+    margin-left: -200%;
+  }
+  20% {
+    margin-left: -200%;
+  }
+  25% {
+    margin-left: -300%;
+  }
+  45% {
+    margin-left: -300%;
+  }
+  50% {
+    margin-left: 0;
+  }
+  70% {
+    margin-left: 0;
+  }
+  75% {
+    margin-left: -100%;
+  }
+  95% {
+    margin-left: -100%;
+  }
+  100% {
+    margin-left: -200%;
+  }
+}
+@keyframes animation4 {
+  0% {
+    margin-left: -300%;
+  }
+  20% {
+    margin-left: -300%;
+  }
+  25% {
+    margin-left: 0;
+  }
+  45% {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: -100%;
+  }
+  70% {
+    margin-left: -100%;
+  }
+  75% {
+    margin-left: -200%;
+  }
+  95% {
+    margin-left: -200%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
