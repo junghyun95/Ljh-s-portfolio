@@ -1,0 +1,157 @@
+
+.headerBox{
+    height: 100px;
+    border-bottom: 1px solid black;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #2A6D45;
+}
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  a:hover, a:focus {
+    outline: none;
+  }
+
+  .menuBox a {
+    font-family: Lato;
+    /**/
+    position: relative;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .menuList1 a:after {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 150px;
+    height: 1px;
+    background: black;
+    content: '';
+    opacity: 0;
+    -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+    transition: height 0.3s, opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  
+  .menuList1 a:hover:after, .menuList1 a:focus:after {
+    height: 1px;
+    opacity: 1;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  .menuList2 a:after {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 70px;
+    height: 1px;
+    background: black;
+    content: '';
+    opacity: 0;
+    -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+    transition: height 0.3s, opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  
+  .menuList2 a:hover:after, .menuList2 a:focus:after {
+    height: 1px;
+    opacity: 1;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  .menuList3 a:after {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 120px;
+    height: 1px;
+    background: black;
+    content: '';
+    opacity: 0;
+    -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+    transition: height 0.3s, opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  
+  .menuList3 a:hover:after, .menuList3 a:focus:after {
+    height: 1px;
+    opacity: 1;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  .menuList4 a:after {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 128px;
+    height: 1px;
+    background: black;
+    content: '';
+    opacity: 0;
+    -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+    transition: height 0.3s, opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  
+  .menuList4 a:hover:after, .menuList4 a:focus:after {
+    height: 1px;
+    opacity: 1;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+
+
+.logo{
+    
+    height: 100px;
+    float: left;
+    width: 500px;
+    font-size: 60px;  
+}
+
+.menuBox{
+    
+    display: flex;
+    float: right;
+    font-size: 30px;
+    width: 800px;
+    list-style: none;
+      
+}
+
+.menuBox li{
+    margin: 30px; 
+}
+
+
+
