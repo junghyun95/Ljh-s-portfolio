@@ -1,0 +1,86 @@
+.Project {
+    width: 100%;
+}
+
+.firstBox{
+    height: 100%;
+    
+}
+
+.title{
+    height: 150px;
+    font-size: 100px;
+    color: #2A6D45;
+    margin-top: 100px;
+}
+
+.projectBox{
+    margin: 0 auto;
+    width: 2200px;
+    background-color: yellow;
+    
+}
+
+.projectBox1{
+    margin: 0 auto;
+    width: 2000px;
+    background-color: ghostwhite;
+    display: flex;
+    
+}
+
+.project1{
+    width: 600px;
+    height: 800px;
+    background-color: green;
+    border-radius: 50px;
+
+}
+
+.project1Box{
+    width: 600px;
+    height: 300px;
+    border-radius: 50px 50px 0px 0px;
+    
+}
+
+.project1Box img{
+    width: 600px;
+    height: 300px;
+    border-radius: 50px 50px 0px 0px;
+    
+}
+
+.project2{
+    width: 600px;
+    height: 800px;
+    background-color: blue;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+
+.project2Box{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(61, 61, 170);
+    border-radius: 50px 50px 0px 0px;
+    
+}
+
+
+.project3{
+    width: 600px;
+    height: 800px;
+    background-color: gray;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+
+.project3Box{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(82, 80, 80);
+    border-radius: 50px 50px 0px 0px;
+    
+}
+
