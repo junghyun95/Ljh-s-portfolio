@@ -1,0 +1,67 @@
+.Contact {
+  width: 100%;
+}
+
+.firstBox {
+  height: 100%;
+}
+
+.title {
+  height: 150px;
+  font-size: 100px;
+  color: #2a6d45;
+  margin-top: 100px;
+}
+
+.logoBox {
+  width: 2200px;
+  margin: 0 auto;
+}
+
+.logoBox1 {
+  margin: 0 auto;
+  width: 1600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.kakao {
+  margin-top: 100px;
+}
+
+.kakao img {
+  width: 400px;
+  height: 400px;
+}
+
+.instagram {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.instagram img {
+  width: 400px;
+  height: 400px;
+}
+
+.mail {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.mail img {
+  width: 400px;
+  height: 400px;
+}
+
+.kakao:hover {
+  transform: scale(1.05);
+}
+
+.instagram:hover {
+  transform: scale(1.05);
+}
+
+.mail:hover {
+  transform: scale(1.05);
+}
