@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Pak_Yong_jun";
 }
 
 .App-logo {
@@ -35,4 +36,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: "Pak_Yong_jun";
+  src: url("./font/Pak_Yong_jun.ttf");
 }

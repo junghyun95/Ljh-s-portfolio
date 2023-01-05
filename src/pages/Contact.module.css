@@ -65,3 +65,8 @@
 .mail:hover {
   transform: scale(1.05);
 }
+
+@font-face {
+  font-family: "Pak_Yong_jun";
+  src: url("../font/Pak_Yong_jun.ttf");
+}
